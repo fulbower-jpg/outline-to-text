@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+# the release zip is uploaded as a GitHub Release, not committed
+release-assets/
+ANTIGRAVITY_PROMPT.md

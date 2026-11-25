@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Outline to Text</title>
+<style>
+ body{margin:0;padding:12px;background:#323232;color:#ddd;font:12px -apple-system,Segoe UI,sans-serif}
+ label{display:block;margin:10px 0 3px;color:#aaa}
+ select,button{width:100%;box-sizing:border-box;padding:6px;background:#444;color:#eee;border:1px solid #555;border-radius:4px}
+ button{margin-top:14px;background:#2d6cdf;border-color:#2d6cdf;font-weight:600;cursor:pointer}
+ button:disabled{opacity:.5;cursor:default}
+ .row{display:flex;align-items:center;gap:6px;margin-top:10px} .row input{margin:0}
+ #log{margin-top:12px;height:130px;overflow:auto;background:#262626;border-radius:4px;padding:6px;font:11px Consolas,monospace;white-space:pre-wrap}
+</style></head>
+<body>
+ <label>Font</label>
+ <select id="fontMode"><option value="auto">Closest match (from installed fonts)</option><option value="fixed">Always use one font…</option></select>
+ <select id="fontFamily" style="display:none;margin-top:6px"></select>
+ <div class="row"><input type="checkbox" id="oneFont" checked><span>Use the same font for the whole selection</span></div>
+ <label>Original outlines</label>
+ <select id="orig"><option value="hide">Hide them</option><option value="keep">Keep them</option><option value="delete">Delete them</option></select>
+ <button id="go">Convert selection to live text</button>
+ <button id="fallback" style="display:none;background:#555;border-color:#666">Convert anyway (any font)</button>
+ <div id="log">Select outlined text, then click Convert.</div>
+ <script src="js/CSInterface.js"></script>
+ <script src="lib/tesseract.min.js"></script>
+ <script src="js/main.js"></script>
+</body></html>
