@@ -61,11 +61,11 @@ The installer copies the panel into Adobe's extensions folder and turns on Adobe
 
 ## Compatibility
 
-Built as an Adobe CEP panel for Illustrator versions that still support CEP. Adobe is gradually moving to a newer system called UXP, so this may need updating in the future.
+Built as an Adobe CEP panel for Illustrator versions that support CEP.
 
 ## Credits
 
-Built by [Aman](https://github.com/fulbower-jpg) with help from Claude (Anthropic). Uses Tesseract OCR, see [NOTICE.md](NOTICE.md).
+Built by [Aman](https://github.com/fulbower-jpg). Uses Tesseract OCR, see [NOTICE.md](NOTICE.md).
 
 ## License
 
