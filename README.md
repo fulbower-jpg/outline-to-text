@@ -65,7 +65,7 @@ Built as an Adobe CEP panel for Illustrator versions that still support CEP. Ado
 
 ## Credits
 
-Built by [Aman](https://github.com/YOUR_USERNAME) with help from Claude (Anthropic). Uses Tesseract OCR, see [NOTICE.md](NOTICE.md).
+Built by [Aman](https://github.com/fulbower-jpg) with help from Claude (Anthropic). Uses Tesseract OCR, see [NOTICE.md](NOTICE.md).
 
 ## License
 
